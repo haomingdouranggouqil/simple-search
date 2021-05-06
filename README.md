@@ -3,10 +3,10 @@
 #### 效果展示
 
 - 以一个含有两万余首诗歌的文件为例，以“秦鸿”为关键词进行搜索
-- ![3](C:\Users\21265\Desktop\自制搜索引擎-wiser源代码\教程\3.png)
+- ![3](https://github.com/haomingdouranggouqil/simple-search/blob/main/img/3.png)
 - 输入命令 **time ./ss -q"秦鸿" now.db**
 - 图为搜索引擎程序运行结果，耗时0.048s
-- ![2](C:\Users\21265\Desktop\自制搜索引擎-wiser源代码\教程\2.png)
+- ![2](https://github.com/haomingdouranggouqil/simple-search/blob/main/img/2.png)
 - 输入命令 **time grep "秦鸿" now.xml**
 - 图为grep函数运行结果，耗时0.901s
 - 结论：在此例中，搜索引擎约比grep函数提速20倍
@@ -44,7 +44,7 @@
 
 - 以汉朝诗歌数据集为例：
 
-- ![1](C:\Users\21265\Desktop\自制搜索引擎-wiser源代码\教程\1.png)
+- ![1](https://github.com/haomingdouranggouqil/simple-search/blob/main/img/1.png)
 
 - 我们先利用csv格式数据生成Wikipedia格式的xml方便处理
 
@@ -91,7 +91,7 @@
 
 - 生成的类Wikipedia格式xml文件如图所示
 
-- ![4](C:\Users\21265\Desktop\自制搜索引擎-wiser源代码\教程\4.png)
+- ![4](https://github.com/haomingdouranggouqil/simple-search/blob/main/img/4.png)
 
 #### 2.处理xml文件
 
