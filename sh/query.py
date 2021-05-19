@@ -1,12 +1,11 @@
 s = '#!bin/sh\n'
 
-query = '添雪斋'
+query = '$1'
 for i in range(1,87):
 
     s += './ss -q '
-    s += "'"
     s += query
-    s += "' "
+    s += ' '
     s += str(i)
     s += '.db;\n'
 
