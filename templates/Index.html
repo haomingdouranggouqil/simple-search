@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" media="screen" href="{{url_for('static', filename='/css/login.css')}}">
+</head>
+<body>
+        <div id="particles-js" style="display: flex;align-items: center;justify-content: center">
+            <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="472" height="625"></canvas>
+        </div>
+        <div class="apTitle"></div>
+        <form action="/result" method="POST">
+            <div class="logcon">
+                <input type="text" name="key" style="width:120px;" placeholder="关键字">
+                <button type="submit">搜索</button>
+            </div>
+        </form>
+        <!-- scripts -->
+        <script src="{{url_for('static', filename='/js/login.js')}}"></script>
+        <script src="{{url_for('static', filename='/js/login2.js')}}"></script>
+        <script>
+            function changeImg() {
+                let pic = document.getElementById('picture');
+                console.log(pic.src)
+                if (pic.getAttribute("src", 2) == "img/check.png") {
+                    pic.src = "img/checked.png"
+                } else {
+                    pic.src = "img/check.png"
+                }
+            }
+        </script>
+</body>
+</html>
